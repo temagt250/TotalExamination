@@ -44,3 +44,6 @@
 Выводим второй массив:
 
     Console.WriteLine($"[“{String.Join("”, “", stringArrayOutput)}”]");
+
+## Блок-схема
+![блок-схема](Блок-схема.png)
