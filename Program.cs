@@ -20,3 +20,11 @@ for (int i = 0; i < stringArrayInput.Length; i++)  // Выесняем длин�
 }
 int count2 = 0;     // счетчик 2, нужен для переноса нужных строк массива из 1-го во 2-ой массив(т.е. строк <= 3)
 string [] stringArrayOutput = new string [count];    // Второй массив
+for (int i = 0; i < stringArrayInput.Length; i++)    // Подставляем нужные строки из 1-го во 2-ой массив
+{
+    if (stringArrayInput[i].Length <= 3)
+    {
+        count2++ ;
+        stringArrayOutput[count2 - 1] = stringArrayInput[i];
+    }
+}
