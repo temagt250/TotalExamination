@@ -14,9 +14,9 @@ for (int i = 0; i < stringArrayInput.Length; i++)  // Выесняем длин�
     Console.WriteLine("Введите название строки: ");
     stringArrayInput[i] = Convert.ToString(Console.ReadLine());   // Вводим  названия для массива
     if (stringArrayInput[i].Length <= 3)   // Проверяем чтобы длинна строки была меньше или ровна 3
-        {
-            count++ ;
-        }
+    {
+        count++ ;
+    }
 }
 int count2 = 0;     // счетчик 2, нужен для переноса нужных строк массива из 1-го во 2-ой массив(т.е. строк <= 3)
 string [] stringArrayOutput = new string [count];    // Второй массив
@@ -28,3 +28,4 @@ for (int i = 0; i < stringArrayInput.Length; i++)    // Подставляем �
         stringArrayOutput[count2 - 1] = stringArrayInput[i];
     }
 }
+Console.WriteLine($"[“{String.Join("”, “", stringArrayOutput)}”]"); // Выводим второй массив

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\Итоговая\\Итоговая.csproj": {}
+    "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\итоговая\\итоговая.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\Итоговая\\Итоговая.csproj": {
+    "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\итоговая\\итоговая.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\Итоговая\\Итоговая.csproj",
-        "projectName": "Итоговая",
-        "projectPath": "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\Итоговая\\Итоговая.csproj",
+        "projectUniqueName": "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\итоговая\\итоговая.csproj",
+        "projectName": "итоговая",
+        "projectPath": "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\итоговая\\итоговая.csproj",
         "packagesPath": "C:\\Users\\Артем\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\Итоговая\\obj\\",
+        "outputPath": "C:\\Users\\Артем\\OneDrive\\Рабочий стол\\итоговая\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Артем\\AppData\\Roaming\\NuGet\\NuGet.Config",
