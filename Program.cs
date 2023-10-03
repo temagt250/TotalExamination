@@ -9,3 +9,12 @@
 //   [“Russia”, “Denmark”, “Kazan”] → []
 string [] stringArrayInput = new string [4]; // Первый массив
 int count = 0; // счетчик 1
+for (int i = 0; i < stringArrayInput.Length; i++)  // Выесняем длинну 2-го массива. Длина 2-го массива ровна count
+{
+    Console.WriteLine("Введите название строки: ");
+    stringArrayInput[i] = Convert.ToString(Console.ReadLine());   // Вводим  названия для массива
+    if (stringArrayInput[i].Length <= 3)   // Проверяем чтобы длинна строки была меньше или ровна 3
+        {
+            count++ ;
+        }
+}
